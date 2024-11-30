@@ -1,0 +1,7 @@
+.services {
+  margin-top: 20px;
+}
+.services__card {
+  background-color: var(--secondary);
+  color: white !important;
+}

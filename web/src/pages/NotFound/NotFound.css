@@ -1,0 +1,53 @@
+.not__found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  user-select: none;
+  flex-direction: column;
+  background-color: var(--color-gray);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.not__found__main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not__found__main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+.not__found__main > div > h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.not__found__main > div > h1 {
+  color: var(--tertiary);
+  letter-spacing: 4px;
+  font-size: 3rem;
+}
+.not__found__main > div > h1 > span:nth-of-type(2) {
+  color: black;
+  position: relative;
+  animation: bounce 2s ease 500ms infinite alternate;
+}
+
+.not__found__main > div > a {
+  color: var(--main-dark);
+  font-weight: 500;
+  margin: 20px auto;
+  text-decoration: underline;
+}
+
+@keyframes bounce {
+  from {
+    top: 0;
+  }
+  to {
+    top: -100px;
+  }
+}

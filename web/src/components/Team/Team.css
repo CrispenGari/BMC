@@ -1,0 +1,34 @@
+.team {
+  display: flex;
+  gap: 20px;
+}
+
+.team__member {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+}
+.team__image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  min-width: 200px !important;
+  min-height: 200px !important;
+}
+
+.team__badge__email {
+  color: var(--primary);
+}
+.team__badge__phone {
+  color: var(--tertiary);
+}
+@media only screen and (max-width: 725px) {
+  .team {
+    flex-direction: column;
+  }
+  .team__image {
+    margin-bottom: -20px;
+  }
+}

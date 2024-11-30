@@ -1,0 +1,31 @@
+@font-face {
+  font-family: NotoSerifRegular;
+  src: url(./fonts/NotoSerif-Regular.ttf);
+}
+@font-face {
+  font-family: BoldItalic;
+  src: url(./fonts/NotoSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: NotoSerifItalic;
+  src: url(./fonts/NotoSerif-Italic.ttf);
+}
+@font-face {
+  font-family: NotoSerifBold;
+  src: url(./fonts/NotoSerif-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: NotoSerifRegular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main);
+
+  --main: #d4ebf8;
+  --primary: #1f509a;
+  --secondary: #2a3335;
+  --tertiary: #e38e49;
+}

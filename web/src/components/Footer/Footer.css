@@ -1,0 +1,21 @@
+.footer {
+  padding: 10px 30px;
+  background-color: var(--secondary);
+  user-select: none;
+  margin-top: 20px;
+}
+.footer__main__card {
+  background-color: var(--secondary);
+}
+
+.footer__main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.footer > p {
+  text-align: center;
+  font-size: 0.8rem;
+  color: white;
+}
