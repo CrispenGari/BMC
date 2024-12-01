@@ -42,7 +42,7 @@ export default Team;
 const team = [
   {
     id: 0,
-    image: "rindai.jpg",
+    image: "rindai.png",
     name: "Rindai Garidzirai",
     email: "rindaigari@gmail.com",
     phoneNumber: "+27 69 414 8634",
