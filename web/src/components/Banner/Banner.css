@@ -4,7 +4,7 @@
   background-image: url(../../../public/bg/0.webp);
   background-size: contain;
   background-color: var(--primary);
-  background-blend-mode: color-burn;
+  background-blend-mode: multiply;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,11 @@
   gap: 30px;
   justify-content: space-evenly;
 }
-
+.banner-ios {
+  background-image: none;
+  background-color: var(--primary) !important;
+  background-blend-mode: normal !important;
+}
 .banner > h1 {
   color: white;
   text-align: center;
