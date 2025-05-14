@@ -54,7 +54,9 @@ const About = () => {
         </Box>
         <Box>
           <Card.Body>
-            <Card.Title mb="2">Call to Action</Card.Title>
+            <Card.Title mb="2" color={"black"}>
+              Call to Action
+            </Card.Title>
             <Card.Description>Book Your Free Consultation</Card.Description>
           </Card.Body>
           <Card.Footer>
