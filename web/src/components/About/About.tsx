@@ -16,11 +16,10 @@ const About = () => {
             <Heading size="md">About Us</Heading>
           </Card.Header>
           <Card.Body color="fg.muted">
-            We are Rindai Garidzirai and Tinashe Crispen Garidzira, passionate
-            educators dedicated to helping students excel in academics. With
-            years of experience and a commitment to personalized learning, we
-            provide comprehensive tutoring services for high school and
-            university students.
+            BMT team has passionate educators dedicated to helping students
+            excel in academics. With years of experience and a commitment to
+            personalized learning, we provide comprehensive tutoring services
+            for high school and university students.
           </Card.Body>
           <Card.Header mt={"-5"}>
             <Heading size="sm">Key Features</Heading>

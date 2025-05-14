@@ -12,6 +12,7 @@ const Banner = () => {
           <Typewriter
             words={[
               "Mathematics.",
+              "Economics",
               "Sciences.",
               "Statistics.",
               "Computer Science.",

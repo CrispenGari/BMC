@@ -1,5 +1,5 @@
-import { Card, Box, Heading, List, Button } from "@chakra-ui/react";
-import { LuBook, LuCheckCircle, LuGraduationCap } from "react-icons/lu";
+import { Card, Box, Heading, List } from "@chakra-ui/react";
+import { LuBook, LuGraduationCap } from "react-icons/lu";
 import "./Services.css";
 
 const Services = () => {
@@ -126,6 +126,7 @@ const services = {
         "Physical Chemistry",
       ],
       Biology: ["Human Anatomy", "Molecular Biology", "Genetics"],
+      Economics: ["Microeconomics", "Macroeconomics", "Development Economics"],
     },
     whatWeOffer: [
       "Personalized study plans",

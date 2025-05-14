@@ -1,4 +1,4 @@
-import { Badge, Box, Card, Heading, HStack, Text } from "@chakra-ui/react";
+import { Badge, Box, Heading, HStack, Text } from "@chakra-ui/react";
 import "./Footer.css";
 const Footer = () => {
   return (

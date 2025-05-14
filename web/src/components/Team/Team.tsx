@@ -48,7 +48,7 @@ const team = [
     phoneNumber: "+27 69 414 8634",
     position: "Lead Tutor and Research Mentor",
     biograph:
-      "Rindai Garidzirai is an experienced educator specializing in Mathematics, Sciences, and advanced statistical methods. With a passion for mentoring students, Rindai leads the team in delivering top-quality tutoring and research assistance to high school and university learners.",
+      "An experienced educator with over 5 years of expertise in Mathematics, Sciences, and advanced statistical methods. Known for a strong commitment to mentorship and academic excellence, this team member plays a leading role in guiding both high school and university students through their tutoring and research journeys.",
   },
   {
     id: 1,
@@ -58,6 +58,6 @@ const team = [
     phoneNumber: "+27 65 230 5879",
     position: "Tutor and Technology Specialist",
     biograph:
-      "Tinashe Crispen Garidzira is an accomplished tutor with expertise in Computer Science, Machine Learning, and Programming. Tinashe combines deep technical knowledge with a focus on student success, helping learners achieve academic and professional growth.",
+      "With more than 5 years of experience in Computer Science, Machine Learning, and Programming, this team member brings a blend of technical expertise and a passion for student development. Focused on practical learning, they help learners build strong foundations and achieve their academic goals.",
   },
 ];
