@@ -13,7 +13,7 @@ const Team = () => {
             alt={member.name}
           />
           <Box>
-            <Heading mb="0" mt={"2"} fontSize={"lg"}>
+            <Heading mb="0" mt={"2"} fontSize={"lg"} color={"black"}>
               {member.name}
             </Heading>
             <Heading color="fg.muted" mb="0" mt={"0"} fontSize={"small"}>

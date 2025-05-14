@@ -10,10 +10,13 @@ const About = () => {
         size="sm"
         flexDirection="row"
         flexWrap={"wrap"}
+        border={"none"}
       >
         <Box flex={1} style={{ minWidth: 300 }}>
           <Card.Header>
-            <Heading size="md">About Us</Heading>
+            <Heading size="md" color={"black"}>
+              About Us
+            </Heading>
           </Card.Header>
           <Card.Body color="fg.muted">
             BMT team has passionate educators dedicated to helping students
@@ -21,24 +24,26 @@ const About = () => {
             personalized learning, we provide comprehensive tutoring services
             for high school and university students.
           </Card.Body>
-          <Card.Header mt={"-5"}>
-            <Heading size="sm">Key Features</Heading>
+          <Card.Header mt={"-5"} className="">
+            <Heading color={"black"} size="sm">
+              Key Features
+            </Heading>
           </Card.Header>
           <Card.Body>
             <List.Root gap="1" variant="plain" align="center">
-              <List.Item>
+              <List.Item color={"black"}>
                 <List.Indicator asChild color="green.500">
                   <LuCheckCircle />
                 </List.Indicator>
                 Experienced tutors with advanced qualifications.
               </List.Item>
-              <List.Item>
+              <List.Item color={"black"}>
                 <List.Indicator asChild color="green.500">
                   <LuCheckCircle />
                 </List.Indicator>
                 Support for assignments, research, and exam preparation.
               </List.Item>
-              <List.Item>
+              <List.Item color={"black"}>
                 <List.Indicator asChild color="green.500">
                   <LuCheckCircle />
                 </List.Indicator>
