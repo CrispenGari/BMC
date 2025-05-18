@@ -1,2 +1,3 @@
-# BMT
-📖 (BMT) Bright Minds Tutorship is a website for our tutorship services.
+# BMC
+
+📖 (BMC) Bright Minds Centre is a website for our tutorship services.

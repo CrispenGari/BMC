@@ -19,7 +19,7 @@ const About = () => {
             </Heading>
           </Card.Header>
           <Card.Body color="fg.muted">
-            BMT team has passionate educators dedicated to helping students
+            BMC team has passionate educators dedicated to helping students
             excel in academics. With years of experience and a commitment to
             personalized learning, we provide comprehensive tutoring services
             for high school and university students.

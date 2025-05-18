@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header">
       <Link to={"/"}>
-        <Image className="header__logo" alt="BMT" src="/adaptive-icon.png" />
+        <Image className="header__logo" alt="BMC" src="/adaptive-icon.png" />
       </Link>
 
       <div className="header__socials">

@@ -36,7 +36,7 @@ const Footer = () => {
         </Box>
       </div>
       <p>
-        © {new Date().getFullYear()} Bright Minds Tutorship(BMT). All rights
+        © {new Date().getFullYear()} Bright Minds Centre(BMC). All rights
         reserved.
       </p>
     </div>
