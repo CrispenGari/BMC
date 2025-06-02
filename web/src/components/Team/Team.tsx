@@ -45,7 +45,7 @@ const team = [
     image: "rindai.png",
     name: "Rindai Garidzirai",
     email: "rindaigari@gmail.com",
-    phoneNumber: "+27 69 414 8634",
+    phoneNumber: "+27 68 258 0269",
     position: "Lead Tutor and Research Mentor",
     biograph:
       "An experienced educator with over 5 years of expertise in Mathematics, Sciences, and advanced statistical methods. Known for a strong commitment to mentorship and academic excellence, this team member plays a leading role in guiding both high school and university students through their tutoring and research journeys.",
