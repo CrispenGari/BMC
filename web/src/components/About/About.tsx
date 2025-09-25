@@ -2,7 +2,14 @@ import { Box, Button, Card, Heading, List } from "@chakra-ui/react";
 
 import "./About.css";
 import { LuCheckCircle } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa";
 const About = () => {
+  const whatsapp = () => {
+    const text = `Hello Bright Minds Centre Team! I'd like book for your services.`;
+    const encodedText = encodeURIComponent(text);
+    window.open(`https://wa.me/27682589269?text=${encodedText}`, "_blank");
+  };
+
   return (
     <div className="about">
       <Card.Root
@@ -60,7 +67,10 @@ const About = () => {
             <Card.Description>Book Your Free Consultation</Card.Description>
           </Card.Body>
           <Card.Footer>
-            <Button className="about__button">Book Now</Button>
+            <Button className="about__button" onClick={whatsapp}>
+              <FaWhatsapp />
+              Book Now
+            </Button>
           </Card.Footer>
         </Box>
       </Card.Root>

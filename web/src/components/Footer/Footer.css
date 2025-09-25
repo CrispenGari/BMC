@@ -19,3 +19,28 @@
   font-size: 0.8rem;
   color: white;
 }
+
+.footer__social__ig {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.footer__socials {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.2rem;
+  color: black !important;
+}
+.footer__socials > a {
+  color: black !important;
+}
+.footer__social__facebook {
+  color: #0f90ec !important;
+  font-size: 1.5rem;
+}
+
+.footer__social__whatsapp {
+  font-size: 1.5rem;
+  color: #1caa60;
+}

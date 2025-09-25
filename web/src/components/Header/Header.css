@@ -20,6 +20,11 @@
   user-select: none;
   overflow: hidden;
 }
+.header__social__ig {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
 .header__socials {
   display: flex;
   gap: 20px;
