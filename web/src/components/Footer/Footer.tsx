@@ -7,7 +7,7 @@ const Footer = () => {
   const whatsapp = () => {
     const text = `Hello Bright Minds Centre Team! I'd like book for your services.`;
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/27682589269?text=${encodedText}`, "_blank");
+    window.open(`https://wa.me/27682580269?text=${encodedText}`, "_blank");
   };
 
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
           </Text>
           <HStack mt="0" flexWrap={"wrap"}>
             <Badge userSelect={"auto"} className="team__badge__email">
-              +27 68 258 9269
+              +27 68 258 0269
             </Badge>
 
             <Badge userSelect={"auto"} className="team__badge__phone">
